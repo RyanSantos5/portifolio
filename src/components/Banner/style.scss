@@ -1,0 +1,139 @@
+@import './../../assets/scss/variaveis.scss';
+
+.banner {
+    background-color: $white;
+    width: 100%;
+    height: calc(100vh + 5px);
+    transition: 400ms all ease-in-out;
+    border-bottom: 5px solid $color-3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    // .banner-content__titulo:hover {
+        
+    // }
+
+    .content {
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+    .logo {
+        height: 100%;
+        flex: 1;
+        min-width: 110px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: auto;
+            height: 60px;
+            transition: 400ms all ease-in-out;
+        }
+    }
+
+    &-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        
+
+        &__titulo {
+            position: absolute;
+            height: auto;
+            top: 30%;
+            left: 10%;
+            max-height: 200px;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+
+            &:hover {
+                &::before {
+                    animation-name: banner-title;
+                }
+            }
+
+            &::before {
+                content: "";
+                width: 2px;
+                height: 0px;
+                left: -10px;
+                top: 0px;
+                position: absolute;
+                background-color: $branco;
+                z-index: 10;
+        
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                animation-play-state: running;
+            }
+
+            h2 {
+                font-size: 122px;
+                font-weight: 900;
+                text-align: left;
+                position: relative;
+            }
+
+            h3 {
+                font-size: 52px;
+                font-weight: 900;
+                text-align: left;
+            }
+
+            span {
+                font-size: 32px;
+            }
+        }
+
+        &__image {
+            width: 100%;
+            height: 100%;
+            background-size: 127%;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+
+            filter: grayscale(.4);
+        }
+
+        .neblina {
+            width: 100%;
+            height: auto;
+            opacity: .3;
+            
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        &__buttons {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        &__button {
+            width: 40px;
+            height: 40px;
+            border-radius: 20%;
+            background: #eaf0f1;
+            box-shadow: 0px 4px 30px #3a3f3c;
+        }
+    }
+}

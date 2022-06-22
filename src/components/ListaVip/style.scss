@@ -1,0 +1,38 @@
+@import './../../assets/scss/variaveis.scss';
+
+.form {
+    
+      input {
+        background: transparent;
+        border: 1px solid $amarelo;
+        color: $cinza;
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
+        outline: none !important;
+        width: 100%;
+        margin: 3px 0;
+        padding: 0 5px;
+      }
+      input::-moz-focus-inner { 
+        border: 0; 
+      }
+      #submit {
+        border: 1px solid $preto;
+        cursor: pointer;
+        color: #707075;
+        transition: 400ms all ease-in-out;
+
+        &:hover {
+            background-color: $preto;
+            color: $color-1;
+        }
+
+      }
+      #submit:focus {
+        color: #f2f2f2;
+      }
+      #submit:active {
+        color: #d0d0d2;
+      }
+}

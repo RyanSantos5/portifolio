@@ -1,0 +1,41 @@
+@import './assets/scss/variaveis.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $branco;
+
+    &::-webkit-scrollbar {
+        width: 6px;                /* roundness of the scroll thumb */
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;        /* color of the tracking area */
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-3;    /* color of the scroll thumb */
+        border-radius: 0px;       /* roundness of the scroll thumb */
+        // border: 3px solid orange;  /* creates padding around scroll thumb */
+    }
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.default-title {
+        font-size: 72px;
+        font-weight: $f-black;
+        color: $text-color-1;
+        text-transform: uppercase;  
+        width: 100%;
+        padding: 30px 0;
+        text-align: left;
+        position: relative;
+}

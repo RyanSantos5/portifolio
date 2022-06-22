@@ -1,0 +1,38 @@
+@import './../../assets/scss/variaveis.scss';
+
+.destaque-texto {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+    h1 {
+        font-size: 38px;
+        color: $amarelo;
+        font-weight: $f-semibold;
+        text-align: left;
+    }
+    
+    p {
+        text-align: left;
+        margin: 10px 0;
+    }
+    
+    .texto-tag {
+        background-color: $amarelo;
+        border-radius: 1px;
+        box-shadow: 1px 1px 1px $preto;
+        color: $preto;
+        margin: 8px 0;
+        padding: 2px 5px;
+    }
+
+    .texto-data {
+        color: rgba($color: $color-1, $alpha: .6);
+        font-size: 12px;
+        font-style: italic;
+    }
+}

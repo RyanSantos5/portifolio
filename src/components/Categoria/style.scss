@@ -1,0 +1,118 @@
+
+@import './../../assets/scss/variaveis.scss';
+
+.categoria {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 40px 0 ;
+    
+    .content {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .owl-nav {
+        position: relative;
+        bottom: 150px;
+        .owl-prev, .owl-next {
+            background-image: url(./../../assets/images/icon/next.png);
+            background-size: 30px auto;
+            background-color: rgba($color: $color-1, $alpha: .1);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+
+            width: 50px;
+            height: 150px;
+
+            right:  -53px;
+        }
+
+        .owl-prev {
+            transform: rotate(180deg);
+            left: -53px;
+        }
+
+        .disabled {
+            opacity: .3;
+        }
+    }
+
+    .categoria-item {
+        background-color: $amarelo;
+        background-size: 100%;
+        background-position: center;
+        box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.7);
+        transition: 400ms all;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        padding-right: 20px;
+
+        &:hover {
+            // background-size: 110%;
+            // box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.8);
+            h1 {
+                bottom: 60px;
+                opacity: 0;
+            }
+
+            p , span {
+                bottom: 10px;
+                opacity: 1;
+            }
+            p {
+                bottom: 28px;
+            }
+        }
+
+        h1 {
+            font-size: 18px;
+            padding: 0px;
+            position: absolute;
+            transition: 200ms all ease-in-out;
+            bottom: 10px;
+            opacity: 1;
+            width: 90%;
+            text-align: left;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        p {
+            // display: none;
+            opacity: 0;
+            position: absolute;
+            bottom: -30px;
+            transition: 200ms all ease-in-out;
+            text-align: left;
+            font-size: 12px;
+            width: 90%;
+        }
+        
+        span {
+            color: $amarelo;
+            font-size: 14px;
+            // display: none;
+            opacity: 0;
+            position: absolute;
+            bottom: -30px;
+            transition: 200ms all ease-in-out;
+            font-size: 12px;
+            font-style: italic;
+            width: 90%;
+        }
+    }
+}

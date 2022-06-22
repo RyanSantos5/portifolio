@@ -1,0 +1,44 @@
+@keyframes banner-title {
+    0% {
+        width: 2px;
+        left: -10px;
+        top: 0px;
+        height: 0px;
+    }
+    25% {
+        width: 2px;
+        left: -10px;
+        top: 0px;
+        height: 100%;
+    }
+    50% {
+        width: 2px;
+        left: -10px;
+        top: calc(100% + 10px);
+        height: 2px;
+    }
+    75% {
+        width: 100%;
+        left: -10px;
+        top: calc(100% + 10px);
+        height: 2px;
+    }
+    100% {
+        width: 0px;
+        left: 100%;
+        top: calc(100% + 10px);
+        height: 2px;
+    }
+  }
+
+@keyframes banner-title-h2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }

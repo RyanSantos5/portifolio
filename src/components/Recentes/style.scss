@@ -1,0 +1,231 @@
+@import './../../assets/scss/variaveis.scss';
+
+.recentes {
+    background-color: $color-1;
+    padding: 20px 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .content {
+        flex-direction: row;
+        gap: 50px;
+
+        & > div {
+            width: 20%;
+
+            &:first-child {
+                width: 80%;
+            }
+        }
+    }
+
+
+
+    h1 {
+        color: $cinza;
+        width: 100%;
+        text-align: left;
+    }
+
+    .contente-col1 {
+        // padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        & > div {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+
+        .categoria-item {
+            background-color: $color-1;
+            
+            transition: 400ms all;
+            position: relative;
+            width: 100%;
+            height: 500px;
+            padding: 10px;
+            padding-top: 0px;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .banner {
+                background-size: cover;
+                background-position: center;
+                box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.7);
+                width: 100%;
+                height: 50%;
+            }
+    
+            &:hover {
+                // background-size: 110%;
+                // box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.8);
+                h1 {
+                    bottom: 60px;
+                    opacity: 1;
+                }
+    
+                p , span {
+                    bottom: 10px;
+                    opacity: 1;
+                }
+                p {
+                    bottom: 28px;
+                }
+            }
+    
+            h1 {
+                font-size: 28px;
+                padding: 0px;
+                position: absolute;
+                transition: 200ms all ease-in-out;
+                bottom: 10px;
+                opacity: 1;
+                width: auto;
+                text-align: left;
+                position: initial;
+                margin: 10px 0;
+                font-weight: $f-semibold;
+    
+                &::before {
+                    display: none;
+                }
+            }
+    
+            p {
+                // display: none;
+                // opacity: 0;
+                color: $cinza;
+                position: initial;
+                bottom: -30px;
+                transition: 200ms all ease-in-out;
+                text-align: left;
+                font-size: 16px;
+                margin: 10px 0;
+            }
+            
+            span {
+                color: $amarelo;
+                font-size: 14px;
+                // display: none;
+                // opacity: 0;
+                position: initial;
+                bottom: -30px;
+                transition: 200ms all ease-in-out;
+                font-size: 12px;
+                font-style: italic;
+            }
+        }
+
+        .owl-carousel {
+            width: 65%;
+            overflow: hidden;
+        }
+
+        .recentes-menu {
+            padding: 0 10px;
+            width: 35%;
+            height: auto;
+            flex: 1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+
+            .categoria-item {
+                background-size: 100%;
+                background-position: center;
+                box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.7);
+                width: 100%;
+                height: 90px;
+                flex: 1;
+                padding: 10px;
+                
+                &:hover {
+                    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.9);
+                    background-size: 115%;
+                    h1 {
+                        bottom: 10px;
+                        opacity: 1;
+    
+                    }
+                }
+
+                h1 {
+                    color: $color-1;
+                    font-size: 18px;
+                }
+
+                p , span {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .contente-col2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 20px;
+
+            &::before {
+                // display: none;
+                background-image: url('./../../assets/images/icon/blur.png');
+                bottom: 25px;
+            }
+        }
+
+        .img-insta {
+            border: 2px solid $color-1;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .bordar-insta {
+            width: 200px;
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+            position: relative;
+
+            &:hover {
+                &::before {
+                    // transform: rotate(-100deg);
+                }
+            }
+
+            &::before {
+                content: '';
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                border-radius: 50%;
+                height: 208px;
+                left: -4px;
+                top: -4px;
+                width: 208px;
+                position: absolute;
+                transition: 400ms all ease-in-out;
+            }
+        }
+    }
+}
