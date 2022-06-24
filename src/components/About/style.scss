@@ -15,6 +15,15 @@
     justify-content: flex-start;
     flex-direction: column;
 
+    &.animate {
+        .about-text {
+            animation-name: translateAnimationLeft;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+        }
+    }
+
     .about-info-1 {
         top: 10%;
 
@@ -145,6 +154,7 @@
 
         height: 100%;
         width: 30%;
+        opacity: 0;
         
         display: flex;
         flex-direction: column;

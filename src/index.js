@@ -21,6 +21,8 @@ var altura;
 var largura;
 var altura_documento;
 var load_skills = false;
+var load_about = false;
+var load_job = false;
 
 function scale (number, inMin, inMax, outMin, outMax) {
   return (number - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
@@ -132,7 +134,6 @@ function loadParallax(e){
 
 // Skills
 function skill(e,max) {
-  console.log(e);
     var numero = e;
     var min = 1;
     var duração = 5000 * (max / 100); // proporcional
@@ -142,7 +143,6 @@ function skill(e,max) {
         numero.innerHTML = nr;
       }, i * duração / max, i);
       duração += 30;
-      console.log(duração);
     }
 }
 
@@ -186,7 +186,16 @@ $( document ).ready(function(i) {
 
   // Skills
   $(window).on("scroll", function(){
-    if($("#skill").offset().top - $(window).scrollTop() > -10 && load_skills == false) {
+    console.log($("#about").offset().top - $(window).scrollTop());
+    // About
+    if($("#about").offset().top - $(window).scrollTop() < 240 && load_about == false) {
+      load_about = true;
+
+      $(".about").addClass("animate");
+    }
+
+    // Skill
+    if($("#skill").offset().top - $(window).scrollTop() < 240 && load_skills == false) {
       skill($('.html')[0], 98);
       skill($('.css')[0], 98);
       skill($('.js')[0], 87);
@@ -196,6 +205,29 @@ $( document ).ready(function(i) {
       skill($('.git')[0], 83);
       skill($('.sql')[0], 57);
 
+      load_skills = true;
+
+      $(".skill").addClass("animate");
+    }
+
+    // Job
+    if($("#job").offset().top - $(window).scrollTop() < 240 && load_job == false) {
+      load_job = true;
+
+      $(".job").addClass("animate");
+    }
+  });
+  
+  $( ".row3" ).on( "click", function() {
+    if(load_skills == true) {
+      skill($('.html')[0], 98);
+      skill($('.css')[0], 98);
+      skill($('.js')[0], 87);
+      skill($('.react')[0], 73);
+      skill($('.node')[0], 54);
+      skill($('.vtex')[0], 79);
+      skill($('.git')[0], 83);
+      skill($('.sql')[0], 57);
       load_skills = true;
     }
   });
@@ -214,7 +246,42 @@ $( document ).ready(function(i) {
     $(".about-info-1").removeClass("active");
     $(".about-info-2").toggleClass("active");
   });
-  
+
+  // Tabs jobs
+  $( ".dev" ).on( "click", function() {
+    if($(this).hasClass("active")) {
+      $(".job__tab__item p").removeClass("active");
+      $(".job__list").removeClass("dev");
+      $(this).removeClass("active");
+      $(".job__list__item.evo").fadeIn(500);
+    } else {
+      $(".job__tab__item p").removeClass("active");
+      $(".job__list").removeClass("evo");
+      $(".job__list").addClass("dev");
+      $(this).addClass("active");
+
+      $(".job__list__item.dev").fadeIn(500);
+      $(".job__list__item.evo").fadeOut(500);
+    }
+  });
+
+  $( ".evo" ).on( "click", function() {
+    if($(this).hasClass("active")) {
+      $(".job__tab__item p").removeClass("active");
+      $(".job__list").removeClass("evo");
+      $(this).removeClass("active");
+
+      $(".job__list__item.dev").fadeIn(500);
+    } else {
+      $(".job__tab__item p").removeClass("active");
+      $(".job__list").removeClass("dev");
+      $(".job__list").addClass("evo");
+      $(this).addClass("active");
+
+      $(".job__list__item.evo").fadeIn(500);
+      $(".job__list__item.dev").fadeOut(500);
+    }
+  });
 
 
 });

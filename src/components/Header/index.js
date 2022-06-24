@@ -39,7 +39,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="menu__content-row row4">
-                        <a className='row-item' href="#contato">
+                        <a className='row-item' href="#job">
                             <div className="menu-icons">
                                 <img src={menu_icon3} alt="Icon"/>
                             </div>

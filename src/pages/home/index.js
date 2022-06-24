@@ -9,6 +9,7 @@ import Skill from '../../components/Skill';
 import Brands from '../../components/Brands';
 import bg from '../../assets/images/background-text.jpg';
 import Job from '../../components/Job';
+import Contact from '../../components/Contact';
 
 
 
@@ -82,7 +83,7 @@ export default class Index extends Component {
                 <About data={destaques} />
                 <Skill data={destaques} />
                 <Job data={destaques} />
-                <Categoria data={destaques} />
+                <Contact />
             </div>
 
         )
