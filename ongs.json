@@ -1,0 +1,307 @@
+{
+    "ongs" : [ {
+      "address" : "Rua Augusto Ribeiro Filho - 20 -, Campo Belo, São Paulo, SP",
+      "phone" : "11 5021 3858",
+      "name" : "BRAZILIAN ADVENTURE SOCIETY"
+    }, {
+      "address" : "R. MAJOR SYLVIO MAGALHAES PADILHA - 5200 - ED. PHILADELPHIA - 3º ANDAR, MORUMBI, São Paulo, SP",
+      "phone" : "11 3759 8000",
+      "name" : "BRAZILIAN INSTITUTE OF TECHNOLOGY AND SOFTWARE - BITS"
+    }, {
+      "address" : "RUA BENTA PEREIRA, - 153 -, SANTANA, São Paulo, SP",
+      "phone" : "11 2975 2152",
+      "name" : "C E I - CENTRO DE EDUCACAO INFANTIL FILADELFIA"
+    }, {
+      "address" : "Rua Professor Vilalva Junior - 339 -, Moinho Velho, São Paulo, SP",
+      "phone" : "11 6915 7527",
+      "name" : "CAAP - ASA ASSISTÊNCIA SOCIAL AO ADOLESCENTE"
+    }, {
+      "address" : "RUA: SÃO SEBASTIÃO - 820 -, CHACARÁ SANTO ANTÔNIO, São Paulo, SP",
+      "phone" : "11 3257 2585",
+      "name" : "CADIS - CENTRO DE APOIO AO DESENVOLVIMENTO E INCLUSÃO SOCIAL."
+    }, {
+      "address" : "Rua Barbalha - 441 - casa 2, Alto da lapa, São Paulo, SP",
+      "phone" : " 25470615",
+      "name" : "CAEDES"
+    }, {
+      "address" : "RUA ANTONIO DAS CHAGAS - 990 -, CHAC. STO ANTONIO, São Paulo, SP",
+      "phone" : " 51803832",
+      "name" : "CAMARA AMERICANA DE COMERCIO PARA O BRASIL -SÃO PAULO"
+    }, {
+      "address" : "AV BRIGADEIRO FARIA LIMA - 1713 - CJ. 61, PINHEIROS, São Paulo, SP",
+      "phone" : "11 3063 4427",
+      "name" : "CÂMARA BRASIL ISRAEL DE COMÉRCIO E INDUSTRIA"
+    }, {
+      "address" : "RUA ILSOGNO ANARELLO - 40 -, VILA MARIANA, São Paulo, SP",
+      "phone" : "11 5576 5570",
+      "name" : "CAMARA BRASILEIRA DE TURISMO"
+    }, {
+      "address" : "AV. Paulista - 807 - CJ - 2315, Cerqueira Cesar, São Paulo, SP",
+      "phone" : " 31463335",
+      "name" : "CAMBRIDGE UNIVERSITY PRESS"
+    }, {
+      "address" : "RUA ROSARIA MUSARRA - 90 -, VILA CALIFORNIA, São Paulo, SP",
+      "phone" : "11 5548 0022",
+      "name" : "CAMINHANDO NÚCLEO DE EDUCAÇÃO E AÇÃO SOCIAL"
+    }, {
+      "address" : "Rua Baixada Santista - 532 - Conjunto III, Itaquera, São Paulo, SP",
+      "phone" : "11 3532 6989",
+      "name" : "CAMOR - CENTRO DE ASSISTÊNCIA AOS MENOS FAVORECIDOS E A POPULAÇÃO EM SITUAÇÃO DE RISCO E VULNERABILIDADE SOCIAL"
+    }, {
+      "address" : "Rua Raiz da Serra - 57 -, Jd Oriental, São Paulo, SP",
+      "phone" : "11 2597 5952",
+      "name" : "CAMP CENTRO DE APRENDIZAGEM E MONITORAMENTO PROFISSIONAL DO JABAQUARA"
+    }, {
+      "address" : "Rua Atlantico Meridional - 120 -, Imirim, São Paulo, SP",
+      "phone" : "11 3851 7879",
+      "name" : "CAMP NORTE ESCOLA PROFISSIONALIZANTE \"LUIZ DIOGENES ZEPPELINI\""
+    }, {
+      "address" : "Av. Giovanni Gronchi - 5411 -, Morumbi, São Paulo, SP",
+      "phone" : " ",
+      "name" : "CÃO SEM DONO"
+    }, {
+      "address" : "AV. LINS DE VASCONCELOS - 1807 -, VILA MARIANA, São Paulo, SP",
+      "phone" : "11 5549  8041",
+      "name" : "CAPITAL BRASILEIRA DA CULTURA"
+    }, {
+      "address" : "Rua Recanto do Sabiá - 222 - Alt. 2.500 da Estrada do Gramado, Parelheiros, São Paulo, SP",
+      "phone" : "11 4652  2021",
+      "name" : "CAPIVARI MONOS"
+    }, {
+      "address" : "Rua 24 de Maio - 104 - 2;o andar, República, São Paulo, SP",
+      "phone" : "11 3226 0083",
+      "name" : "CARE INTERNACIONAL BRASIL"
+    }, {
+      "address" : "RUA SERRA DA ESPERANÇA - 190 - JD. BOM REFÚGIO, CAMPO LIMPO, São Paulo, SP",
+      "phone" : "11 5841 3365",
+      "name" : "CARITAS DIOCESANA DE CAMPO LIMPO"
+    }, {
+      "address" : "Rua Nicolau barreto - 250 -, VIla Cordeiro, São Paulo, SP",
+      "phone" : "11 2821 8701",
+      "name" : "CARITAS DIOCESANA DE SANTO AMARO"
+    }, {
+      "address" : "RUA SÃO BENEDITO - 810 -, SANTO AMARO, São Paulo, SP",
+      "phone" : "11 5181 5893",
+      "name" : "CARMINHA ASSOCIAÇÃO PARA REABILITAÇÃO DO EXCEPCIONAL - CARE"
+    }, {
+      "address" : "Rua Labatut - 167 -, Ipiranga, São Paulo, SP",
+      "phone" : "11 2914 0837",
+      "name" : "CASA ABERTA DESENVOLVIMENTO CULTURAL"
+    }, {
+      "address" : "Rua Vacanga - 300 -, Vila Carrão, São Paulo, SP",
+      "phone" : " 27827366",
+      "name" : "CASA DA CRIANÇA BETINHO-LAR ESPÍRITA PARA EXCEPCIONAIS"
+    }, {
+      "address" : "rua ambrosina de macedo - 194 -, vila mariana, São Paulo, SP",
+      "phone" : "11 5579 2367",
+      "name" : "CASA DA CRIANÇA DE VILA MARIANA"
+    }, {
+      "address" : "Rua Areião - 59 -, Tatuapé, São Paulo, SP",
+      "phone" : "11 2294 4764",
+      "name" : "CASA DA CRIANÇA FELIZ"
+    }, {
+      "address" : "RUA DONA ELFRIDA - 571 - FUNDOS, CHORA MENINO, São Paulo, SP",
+      "phone" : " 29770801",
+      "name" : "CASA DA CRIANÇA IRMÃ ANGELA"
+    }, {
+      "address" : "RUA MOXEI - 96 -, LAPA DE BAIXO, São Paulo, SP",
+      "phone" : "11 3837 9853",
+      "name" : "CASA DA CRIANÇA PAULO DE TARSO"
+    }, {
+      "address" : "RUA GENERAL JARDIM - 182 -, VL BUARQUE, São Paulo, SP",
+      "phone" : " 30175699",
+      "name" : "CASA DA CULTURA FRANCESA - ALIANÇA FRANCESA"
+    }, {
+      "address" : "Rua da Mooca - 113 -, Mooca, São Paulo, SP",
+      "phone" : "11 3209 1132",
+      "name" : "CASA DA DIVINA PROVIDÊNCIA MADRE TERESA MICHEL"
+    }, {
+      "address" : "Rua Duarte de Azevedo - 608 -, Santana, São Paulo, SP",
+      "phone" : "11 2099 3725",
+      "name" : "CASA DE AMPARO AO MENOR TIA MARLY"
+    }, {
+      "address" : "Rua Major Diogo - 779 -, Bela Vista, São Paulo, SP",
+      "phone" : " 31121384",
+      "name" : "CASA DE APOIO BRENDA LEE"
+    }, {
+      "address" : "Avenida Francisco Nóbrega Barbosa - 160 -, Parque Alves de Lima, São Paulo, SP",
+      "phone" : " 58903477",
+      "name" : "CASA DE BENEFICÊNCIA SÃO PAULO"
+    }, {
+      "address" : "Rua Oscar Freire - 2500 - 4º Andar, Pinheiros, São Paulo, SP",
+      "phone" : "11 3065 4334",
+      "name" : "CASA DE CULTURA DE ISRAEL"
+    }, {
+      "address" : "Rodovia Fernão Dias - 82 - Kilometro, Vila Airosa, São Paulo, SP",
+      "phone" : "11 2453 6600",
+      "name" : "CASA DE DAVID TABERNÁCULO ESPÍRITA PARA EXCEPCIONAIS"
+    }, {
+      "address" : "Rua da Consolação - 2143 - Apto 131, Consolação, São Paulo, SP",
+      "phone" : "11 5612 3119",
+      "name" : "CASA DE ESTAR SÃO MARTINHO"
+    }, {
+      "address" : "Rua Gastão da Cunha - 458 -, Vila Paulista, São Paulo, SP",
+      "phone" : "11 5523 9212",
+      "name" : "CASA DE FRANCISCO DE ASSIS"
+    }, {
+      "address" : "R. Desemb. Rodrigues Setta - 93 -, Jd Peri, São Paulo, SP",
+      "phone" : "11 2232 5659",
+      "name" : "CASA DE MARIA - LAR DE APOIO"
+    }, {
+      "address" : "Rua Fradique Coutinho - 956 -, Vila Madalena, São Paulo, SP",
+      "phone" : "11 3812 6848",
+      "name" : "CASA DE NOSSA SENHORA DO BRASIL"
+    }, {
+      "address" : "RUA SANTA MARCELINA - 177 -, ITAQUERA, São Paulo, SP",
+      "phone" : "11 2070 6201",
+      "name" : "CASA DE SAÚDE SANTA MARCELINA"
+    }, {
+      "address" : "R AGRIMENSOR SUGAYA - 986 -, ITAQUERA, São Paulo, SP",
+      "phone" : " 65216222",
+      "name" : "CASA DO CRISTO REDENTOR"
+    }, {
+      "address" : "RUA TABAPUÃ - 649 - CJ 26, ITAIM BIBI, São Paulo, SP",
+      "phone" : "11 3294 0630",
+      "name" : "CASA DO CUIDAR"
+    }, {
+      "address" : "rua padre chico - 308 -, santo amaro, São Paulo, SP",
+      "phone" : "11 5686 3288",
+      "name" : "CASA DO MENOR SANTO AMARO GROSSARL"
+    }, {
+      "address" : "Rua Regina Badra, - 471 -, Alto da Boa Vista, São Paulo, SP",
+      "phone" : "11 5686 4322",
+      "name" : "CASA DOS VELHINHOS DE ONDINA LOBO"
+    }, {
+      "address" : "RUA SIMPATIA - 192 - SALA 31, JARDIM DAS BANDEIRAS, São Paulo, SP",
+      "phone" : "11 3813 7401",
+      "name" : "CASA ESTRELA"
+    }, {
+      "address" : "Rua José Frutuoso Dias - 138 -, Casa Verde, São Paulo, SP",
+      "phone" : "11 3965 9226",
+      "name" : "CASA JESUS AMOR E CARIDADE"
+    }, {
+      "address" : "AVENIDA CARLOS LACERDA - 3094 -, JARDIM ROSANA, São Paulo, SP",
+      "phone" : "11 5851 8118",
+      "name" : "CASA JOSE COLTRO"
+    }, {
+      "address" : "AV DEP EMILIO CARLOS - 318 -, BAIRRO DO LIMÃO, São Paulo, SP",
+      "phone" : "11 3965 1550",
+      "name" : "CASA PADRE MOYE"
+    }, {
+      "address" : "Zulmira Carvalho - 81 -, vl nova belezas, São Paulo, SP",
+      "phone" : "11 8187 8587",
+      "name" : "CASA PRINT"
+    }, {
+      "address" : "Rua Cotoxo - 300 -, Vila Pompeia, São Paulo, SP",
+      "phone" : "11 3862 9201",
+      "name" : "CASA SERENA"
+    }, {
+      "address" : "RUA ASPICUELTA, - 131 - SOBRELOJA, VILA MADALENA, São Paulo, SP",
+      "phone" : "11 2193 3777",
+      "name" : "CASA7 MEMÓRIAS E APRENDIZAGENS DA PRÁTICA SOCIAL"
+    }, {
+      "address" : "RUA FREI CANECA - 1057 -, CONSOLAÇÃO, São Paulo, SP",
+      "phone" : "11 3772 7565",
+      "name" : "CASARÃO BRASIL - ASSOCIAÇÃO GLS"
+    }, {
+      "address" : "Av. Celso Garcia - 4382 -, Tatuapé, São Paulo, SP",
+      "phone" : "11 6941  9991",
+      "name" : "CASS CENTRO DE ASSISTÊNCIA SOCIAL E SAÚDE"
+    }, {
+      "address" : "Rua Cristiano Viana - 505 - cj. 23, Cerqueira Cesar, São Paulo, SP",
+      "phone" : "11 3063 3833",
+      "name" : "CATALISA REDE DE COOPERAÇÃO PARA SUSTENTABILIDADE"
+    }, {
+      "address" : "Rua Comendador Joao Gabriel - 90 -, Mirandopolis, São Paulo, SP",
+      "phone" : "11 3333 1066",
+      "name" : "CEABRA - COLETIVO DE EMPRESARIOS E EMPREENDEDORES AFRO-BRASILEIROS"
+    }, {
+      "address" : "av. parada pinto - 374 -, v.nova cachoeirinha, São Paulo, SP",
+      "phone" : "11 6694 2306",
+      "name" : "CECAP - CENTRO DE CULTURA ARTISTICA E POPULAR"
+    }, {
+      "address" : "Rua Manoel de Paiva - 226 -, Vila Mariana, São Paulo, SP",
+      "phone" : "11 5081 5284",
+      "name" : "CECIF - CENTRO DE CAPACITAÇÃO E INCENTIVO À FORMAÇÃO DE PROFISSIONAIS, VOLUNTÁRIOS E ONGS QUE DESENVOLVEM TRABALHO DE APOIO À CONVIVÊNCIA FAMILIAR"
+    }, {
+      "address" : "RUA EUGENIO DE MEDEIROS - 639 - TERREO, PINHEIROS, São Paulo, SP",
+      "phone" : "11 3097 0523",
+      "name" : "CEDAC CENTRO DE EDUCAÇÃO E DOCUMENTAÇÃO PARA AÇÃO COMUNITARIA"
+    }, {
+      "address" : "AVENIDA DOUTOR ARNALDO - 2105 -, SUMARÉ, São Paulo, SP",
+      "phone" : "11 3675 3637",
+      "name" : "CEFAC ? ASSOCIAÇÃO ASSISTENCIAL EM SAÚDE E EDUCAÇÃO"
+    }, {
+      "address" : "RUA CEL. OSCAR PORTO - 40 - APTO 93, PARAISO, São Paulo, SP",
+      "phone" : "11 3047 1000",
+      "name" : "CELULA BRASIL COMUNICADADE DE ESPORTE E LAZER UNIDA PELA LIBERADADE AMBIENTAL"
+    }, {
+      "address" : "Rua Bento de Andrade - 126 -, Jardim Paulista, São Paulo, SP",
+      "phone" : "11 3889 7806",
+      "name" : "CEMPRE - COMPROMISSO EMPRESARIAL PARA RECICLAGEM"
+    }, {
+      "address" : "Rua Eng. Alvares de Sales Oliveira - 99 -, Jd. helena, São Paulo, SP",
+      "phone" : "11 2581 3882",
+      "name" : "CENAVI CENTRO NACIONAL DE APOIO A VIDA"
+    }, {
+      "address" : "RUA MINAS GERAIS - 228 -, CONSOLAÇÃO, São Paulo, SP",
+      "phone" : "11 2132 9000",
+      "name" : "CENPEC CENTRO DE ESTUDOS E PESQUISAS EM EUCACAO, CULTURA E ACAO COMUNITARIA"
+    }, {
+      "address" : "Rua Orobó - 100 -, Alto de Pinheiros, São Paulo, SP",
+      "phone" : "11 2683 9000",
+      "name" : "CENTRAL GERAL DO DÍZIMO PRÓ-VIDA"
+    }, {
+      "address" : "RUA TOBIAS BARRETO - 966 -, MOOCA, São Paulo, SP",
+      "phone" : "11 2697 2186",
+      "name" : "CENTRO ASSISTENCIAL SOCIAL ESTRELA GUIA"
+    }, {
+      "address" : "RUA PEDRO DE TOLEDO - 980 - CONJUNTO 131, VILA CLEMENTINO, São Paulo, SP",
+      "phone" : "11 5594  8039",
+      "name" : "CENTRO BRASIL TRABALHO - CBT"
+    }, {
+      "address" : "Av. Brigadeiro Luis Antonio, - 2870 - sala 07, Jardim Paulista, São Paulo, SP",
+      "phone" : "11 3885 5591",
+      "name" : "CENTRO BRASILEIRO DE CULTURA TIBETANA"
+    }, {
+      "address" : "RUA DESEMBARGADOR GUIMARÃES - 21 -, ÁGUA BRANCA, São Paulo, SP",
+      "phone" : "11 3864 7500",
+      "name" : "CENTRO BRASILEIRO DE ESTUDOS E PESQUISAS JUDICIAIS"
+    }, {
+      "address" : "Rua Venâncio Aires - 157 -, Água Branca, São Paulo, SP",
+      "phone" : "11 3864 1239",
+      "name" : "CENTRO BRASILEIRO DE MÍDIA PARA CRIANÇAS E ADOLESCENTES"
+    }, {
+      "address" : "Rua José Mauro Mendonça - 279 -, Jardim Santa Lucia, São Paulo, SP",
+      "phone" : "11 5674 0761",
+      "name" : "CENTRO COMUNITÁRIO CATÓLICO E OBRAS SOCIAIS OSCAR ROMERO"
+    }, {
+      "address" : "AV. LIBERDADE - 345 -, LIBERDADE, São Paulo, SP",
+      "phone" : "11 3207 3530",
+      "name" : "CENTRO COMUNITÁRIO DA CRIANÇA E DO ADOLESCENTE"
+    }, {
+      "address" : "RUA VICTOR LAMPARELLI - 75 -, CAMPO GRANDE, São Paulo, SP",
+      "phone" : "11 5611 6212",
+      "name" : "CENTRO COMUNITÁRIO DE PROMOÇÃO HUMANA DA PARÓQUIA NOSSA SENHORA DO SABARÁ"
+    }, {
+      "address" : "Rua Padre Sabóia de Medeiros - 1868 -, Jardim Japão, São Paulo, SP",
+      "phone" : " 22011671",
+      "name" : "CENTRO COMUNITÁRIO DO JARDIM JAPÃO"
+    }, {
+      "address" : "Av. Rio Pequeno - 1159 -, Rio Pequeno, São Paulo, SP",
+      "phone" : " 37686697",
+      "name" : "CENTRO COMUNITÁRIO E CRECHE SINHAZINHA MEIRELLES"
+    }, {
+      "address" : "Rua Monet - 150 -, Jardim Macedônia, São Paulo, SP",
+      "phone" : "11 5825 2709",
+      "name" : "CENTRO COMUNITÁRIO E RECREATIVO DO JARDIM MACEDONIA"
+    }, {
+      "address" : "Rua Nossa Senhora Aparecida - 1 -, Interlagos, São Paulo, SP",
+      "phone" : "11 5668 6943",
+      "name" : "CENTRO COMUNITÁRIO JARDIM AUTÓDROMO"
+    }, {
+      "address" : "R: José Cardoso Coutinho - 87 -, Jardim Ipanema, São Paulo, SP",
+      "phone" : "11 5660 7399",
+      "name" : "CENTRO COMUNITÁRIO JARDIM IPANEMA"
+    }]
+}
