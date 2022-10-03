@@ -18,7 +18,7 @@ const Home = () => {
     const loadData = async () => {
 
         try {
-            const response = await fetch('./portifolio/data.json');
+            const response = await fetch('./data.json');
             const data = await response.json();
             console.log(data.data)
             setOds(data.data);
