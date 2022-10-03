@@ -1,139 +1,125 @@
 @import './../../assets/scss/variaveis.scss';
+@import './../../assets/scss/animation.scss';
 
 .banner {
-    background-color: $white;
     width: 100%;
-    height: calc(100vh + 5px);
-    transition: 400ms all ease-in-out;
-    border-bottom: 5px solid $color-3;
+    height: auto;
+    z-index: 10;
+    height: 40vh;
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: row;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
 
-    // .banner-content__titulo:hover {
-        
-    // }
-
-    .content {
-        flex-direction: row;
-        flex-wrap: nowrap;
-
+    @include tablet {
+        padding: 10px 0;
     }
 
-    .logo {
-        height: 100%;
-        flex: 1;
-        min-width: 110px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-            width: auto;
-            height: 60px;
-            transition: 400ms all ease-in-out;
-        }
-    }
-
-    &-content {
+    &::before {
+        // content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        display: flex;
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4));
+    }
+
+    .container {
+        z-index: 10;
         position: relative;
+        height: 100%;
+        align-items: flex-end;
+    }
+
+    &__icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 40vw;
+        max-height: 90%;
+        
+        @include tablet {
+            max-height: 26%;
+            max-width: 26vw;
+        }
+
+        @include fade(
+        in,
+        right,
+        100px,
+        2000ms,
+        200ms,
+        $animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+        );
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+
+        @include fade(
+        in,
+        down,
+        100px,
+        1400ms,
+        $animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+        );
         
 
-        &__titulo {
-            position: absolute;
-            height: auto;
-            top: 30%;
-            left: 10%;
-            max-height: 200px;
-
+        div {
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
             flex-direction: column;
-
-            &:hover {
-                &::before {
-                    animation-name: banner-title;
-                }
-            }
-
-            &::before {
-                content: "";
-                width: 2px;
-                height: 0px;
-                left: -10px;
-                top: 0px;
-                position: absolute;
-                background-color: $branco;
-                z-index: 10;
-        
-                animation-duration: 2s;
-                animation-fill-mode: forwards;
-                animation-play-state: running;
-            }
-
-            h2 {
-                font-size: 122px;
-                font-weight: 900;
-                text-align: left;
-                position: relative;
-            }
-
-            h3 {
-                font-size: 52px;
-                font-weight: 900;
-                text-align: left;
-            }
-
-            span {
-                font-size: 32px;
-            }
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 5px;
         }
+    }
 
-        &__image {
-            width: 100%;
-            height: 100%;
-            background-size: 127%;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
+    &__number {
+        font-size: 8rem;
 
-            filter: grayscale(.4);
+        @include tablet {
+            font-size: 9rem;
         }
+    }
 
-        .neblina {
-            width: 100%;
-            height: auto;
-            opacity: .3;
-            
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
+    &__name {
+        font-size: 2.5rem;
+
+        @include tablet {
+            text-align: left;
+            font-size: 2rem;
         }
+    }
 
-        &__buttons {
-            position: absolute;
-            right: 10px;
-            bottom: 10px;
+    &__description {
+        font-size: 1rem;
+        margin-left: 3px;
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
+        @include tablet {
+            text-align: left;
+            font-size: .75rem;
         }
+    }
 
-        &__button {
-            width: 40px;
-            height: 40px;
-            border-radius: 20%;
-            background: #eaf0f1;
-            box-shadow: 0px 4px 30px #3a3f3c;
+    &__button {
+        margin-top: 5px;
+        font-size: 1rem;
+        padding: 5px 12px;
+        background-color: $color-1;
+        border-radius: 4px;
+        transition: 200ms all ease-in-out;
+
+        &:hover {
+            background-color: $color-1-600;
         }
     }
 }

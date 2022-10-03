@@ -1,0 +1,83 @@
+@import './../../assets/scss/variaveis.scss';
+@import './../../assets/scss/animation.scss';
+
+.description {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+
+    @include tablet {
+        padding: 10px 0;
+    }
+
+    .container {
+        z-index: 10;
+        position: relative;
+        height: 100%;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    p {
+        color: $cinza;
+        text-align: left;
+    }
+    
+    a  {
+        margin: 30px auto 0;
+        color: $cinza;
+        text-align: center;
+        transition: 200ms all ease-in-out;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    span {
+        color: $cinza;
+        
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 8px 0;
+    }
+
+    &__prefix {
+
+    }
+
+    &__description {
+        font-size: 1rem;
+        margin-left: 3px;
+
+        @include tablet {
+            text-align: left;
+            font-size: .75rem;
+        }
+    }
+
+    &__button {
+        margin-top: 5px;
+        font-size: 1rem;
+        padding: 5px 12px;
+        background-color: $color-1;
+        border-radius: 4px;
+        transition: 200ms all ease-in-out;
+
+        &:hover {
+            background-color: $color-1-600;
+        }
+    }
+}

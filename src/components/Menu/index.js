@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../Logo';
+import './style.scss';
 
+const Menu = () => {
 
-const Menu = (props) => {
+        useEffect(() => {
+
+        },[]);
     return  (
-        <div className={props.className}>
-            <ul>
-                <li><Link className="link" to="/cortes"> Cortes de Cabelo </Link></li>
-                <li><Link className="link" to="/moda"> Moda </Link></li>
-                <li><Link className="link" to="/tenis"> Tenis </Link></li>
-                <li><Link className="link" to="/acessorio"> Acessorios </Link></li>
-                <li><Link className="link" to="/black"> Black Friday </Link></li>
-            </ul>
+        <div className="menu" id='menu'>
+            <Link to='/portifolio/'>Home</Link>
+            <Link to='/portifolio/project'>Projeto</Link>
+            <Link to='/portifolio/weather'>Weather</Link>
+            <Link to='/portifolio/ongs'>Ongs</Link>
+            <Link to='/portifolio/weather'>Weather</Link>
         </div>
     )
 }

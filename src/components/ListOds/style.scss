@@ -1,0 +1,102 @@
+@import './../../assets/scss/variaveis.scss';
+@import './../../assets/scss/animation.scss';
+
+.list-ods {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        z-index: 10;
+        position: relative;
+        height: 100%;
+
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: calc(10% / 8);
+    }
+
+    &__list {
+        width: 100%;
+        z-index: 10;
+        position: relative;
+        height: 100%;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: calc(10% / 8);
+        
+        @include tablet {
+            gap: calc(10% / 3);
+        }
+    }
+
+    &__item {
+        cursor: pointer;
+        width: 10%;
+        height: 140px;
+        padding: 15px;
+        margin-top: calc(10% / 8);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        @include tablet {
+            width: 30%;
+        }
+    }
+
+    &__icon {
+        max-width: 80px;
+        max-height: 50px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 5px;
+
+        @include fade(
+        in,
+        down,
+        100px,
+        1400ms,
+        $animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+        );
+        
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 5px;
+        }
+    }
+
+    &__number {
+        font-size: 2rem;
+    }
+
+    &__name {
+        font-size: .95rem;
+        text-align: left;
+    }
+}

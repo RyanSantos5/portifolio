@@ -1,27 +1,27 @@
-import React from 'react';
-import Logo from '../Logo';
-import P5 from '../p5';
-import background1 from '../../assets/images/background_home.jpg';
-import neblina1 from '../../assets/images/neblina1.png';
-import neblina2 from '../../assets/images/neblina2.png';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
-const Banner = () => {
+const Banner = ({ods}) => {
+
+
+    useEffect(() => {
+        console.log(ods)
+    },[]);
+        
     return  (
-        <div className="banner">
-            <div className="banner-content">
-                <div className="banner-content__image" style={{backgroundImage:`url(${background1})`}}>
-                    <img className='neblina1 neblina' src={neblina1} />
-                    <img className='neblina2 neblina' src={neblina2} />
+        <div className="banner" id='banner'
+        style={{ backgroundColor: ods? ods.color : "#EAF0F1"}}>
+            <div className='container'>
+                <div className='banner__info'>
+                    <p className='banner__number'>{ods?.number}</p>
+                    <div>
+                        <p className='banner__name'>{ods?.name}</p>
+                        <p className='banner__description'>{ods?.description}</p>
+                        <Link to="" className='banner__button' style={{ color: ods?.color}}>Veja mais</Link>
+                    </div>
                 </div>
-                <div className='banner-content__titulo'>
-                    <h3>Olá, <span>eu sou</span></h3>
-                    <h2>Ryan Santos</h2>
-                </div>
-                <div className='banner-content__buttons'>
-                    <div className="banner-content__button"></div>
-                    <div className="banner-content__button"></div>
-                </div>
+                <img className='banner__icon'  src={ods?.icon}/>
             </div>
         </div>
     )

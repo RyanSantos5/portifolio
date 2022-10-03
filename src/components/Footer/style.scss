@@ -1,0 +1,33 @@
+@import './../../assets/scss/variaveis.scss';
+
+.footer {
+    background-color: $preto;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        gap: 20px;
+    }
+
+    p {
+        color: $branco;
+    }
+
+    img {
+        filter: grayscale(1);
+        max-height: 40px;
+    }
+}

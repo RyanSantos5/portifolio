@@ -1,175 +1,31 @@
 @import './../../assets/scss/variaveis.scss';
 
 .header {
-    position: absolute;
-    top: 80vh;
-    background-color: transparent;
+    background-color: $branco;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: auto;
-    max-height: 100px;
+    height: 80px;
     z-index: 10;
+    box-shadow:  0px 0px 20px 3px rgba($color: rgb(35, 35, 35), $alpha: .4); 
+    padding: 15px 10px;
+    z-index: 100;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 
-    .menu {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 5;
-        
-        &__content {
-            width: 50%;
-
-            padding: 5px;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            flex-direction: row;
-            
-
-            &-row {
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                p {
-                    color: $color-3;
-                    font-weight: 700;
-                    height: 100%;
-                }
-
-                .row-item {
-                    background-color: $white;
-                    border-radius: 10px;
-                    cursor: pointer;
-                    height: 50px;
-                    padding: 5px;
-                    position: relative;
-                    width:  max-content;
-                    top: 0px;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    
-                    // background: #eaf0f1;
-                    transition: 400ms all cubic-bezier(0.23, 0.31, 0, 1.01);
-                    box-shadow:  0px 15px 40px rgba($color: #9b9b9b, $alpha: .2);
-                    
-                    &:hover {
-                        
-                        .menu-text {
-                            max-width: 110px;
-                            padding: 0 10px;
-                        }
-                    } 
-                }
-
-                .menu-text {
-                    max-width: 0px;
-                    overflow-x: hidden;
-                    background-color: $white;
-                    transition: 400ms all cubic-bezier(0.23, 0.31, 0, 1.01);
-                    
-                    display: flex;
-                    height: 100%;
-                    align-items: center;
-                }
-
-                .menu-icons {
-                    width: 40px;
-                    height: 40px;
-                    position: relative;
-
-                    img {
-                        max-width: 100%;
-                        max-height: 100%;
-                        position: absolute;
-                        top: 0px;
-                        left: 0px;
-
-                        transition: 400ms all cubic-bezier(0.23, 0.31, 0, 1.01);
-                    }
-                }
-            }
-
-            .row2 {
-                .row-item:hover {
-                    img {
-                        &:last-child {
-                            transform: translate(45%, 20%) scale(.6);
-                            opacity: 1;
-                        }
-                    }
-                }
-
-                img {
-                    &:last-child {
-                        transform: translate(-20%, 45%) scale(.3);
-                        opacity: 0;
-                    }
-                }
-            }
-            .row3 {
-                .row-item:hover {
-
-                    img {
-                        &:first-child {
-                            transform: rotate(90deg);
-                        }
-                    }
-                } 
-            }
-
-            .logo-menu {
-                max-width: 100%;
-                border-radius: 50%;
-
-                display: flex;
-                align-items: center;
-
-                
-                img {
-                    border-radius: 50%;
-                    max-width: 100%;
-                }
-            }
-        }
+    @include tablet {
+        height: 95px;
     }
-
-}
-
-.fixed {
-    position: fixed;
-    width: 100px;
-    height: auto;
-    bottom: 0px;
-    right: 0px;
-    // background-color: $branco;
-    // box-shadow:  -3px 0px 40px #cdcdcd;
-
-    .menu {
-        &__content {
+    .container {
+        @include tablet {
             flex-direction: column;
         }
-
-        &-text {
-            max-width: 0px !important;
-            padding: 0px !important;
-        }
     }
 
 
-    .row-item {
-        &:hover{
-            top: -3px;
-        }
-    }
 }

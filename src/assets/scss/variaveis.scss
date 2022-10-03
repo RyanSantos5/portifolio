@@ -19,6 +19,7 @@ $preto: #000000;
 $cinza: #1A1A1A;
 $amarelo: #FACD34;
 $branco: #EAF0F1;
+$azul: #009edb;
 
 $color-1: #EAF0F1; // Cor principal da marca
 $color-2: #000000; // Cor secundária da marca
@@ -137,6 +138,48 @@ $color-c-1: #6fcf97;
 $color-c-2: darken($color-c-1, 20%);
 
 $transition: cubic-bezier(0.32, 0.91, 0.46, 1.01);
+
+// MEDIA QUERIES
+$phone-max: 320px;
+$mobile-max: 639px;
+$tablet-max: 1024px;
+$desktop-max: 1366px;
+$ultrawide-max: 1920px;
+
+$mobile-min: $phone-max +1;
+$tablet-min: $mobile-max +1;
+$desktop-min: $tablet-max +1;
+$ultrawide-min: $desktop-max +1;
+
+@mixin phone {
+  @media (max-width: #{$phone-max}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-max}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-max}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$desktop-max}) {
+    @content;
+  }
+}
+
+@mixin ultrawide {
+  @media (max-width: #{$ultrawide-max}) {
+    @content;
+  }
+}
 
 
 

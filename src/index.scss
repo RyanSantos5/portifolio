@@ -6,6 +6,12 @@ html {
 
 body {
     background-color: $branco;
+    padding-top: 80px;
+    height: 100vh;
+    
+    @include tablet {
+        padding-top: 95px;
+    }
 
     &::-webkit-scrollbar {
         width: 6px;                /* roundness of the scroll thumb */
@@ -16,7 +22,7 @@ body {
     }
     
     &::-webkit-scrollbar-thumb {
-        background-color: $color-3;    /* color of the scroll thumb */
+        background-color: $azul;    /* color of the scroll thumb */
         border-radius: 0px;       /* roundness of the scroll thumb */
         // border: 3px solid orange;  /* creates padding around scroll thumb */
     }
@@ -29,13 +35,21 @@ body {
     display: flex;
 }
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .default-title {
-        font-size: 72px;
+        font-size: 2.6rem;
         font-weight: $f-black;
         color: $text-color-1;
-        text-transform: uppercase;  
         width: 100%;
         padding: 30px 0;
-        text-align: left;
+        text-align: center;
         position: relative;
 }
