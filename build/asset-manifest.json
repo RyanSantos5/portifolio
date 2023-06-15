@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.f004981a.chunk.css",
-    "main.js": "/portifolio/static/js/main.c87016a1.chunk.js",
-    "main.js.map": "/portifolio/static/js/main.c87016a1.chunk.js.map",
-    "runtime-main.js": "/portifolio/static/js/runtime-main.b567b87d.js",
-    "runtime-main.js.map": "/portifolio/static/js/runtime-main.b567b87d.js.map",
-    "static/css/2.7ab896fa.chunk.css": "/portifolio/static/css/2.7ab896fa.chunk.css",
-    "static/js/2.11d12644.chunk.js": "/portifolio/static/js/2.11d12644.chunk.js",
-    "static/js/2.11d12644.chunk.js.map": "/portifolio/static/js/2.11d12644.chunk.js.map",
-    "index.html": "/portifolio/index.html",
-    "static/css/2.7ab896fa.chunk.css.map": "/portifolio/static/css/2.7ab896fa.chunk.css.map",
-    "static/css/main.f004981a.chunk.css.map": "/portifolio/static/css/main.f004981a.chunk.css.map",
-    "static/js/2.11d12644.chunk.js.LICENSE.txt": "/portifolio/static/js/2.11d12644.chunk.js.LICENSE.txt",
-    "static/media/logo.a11cfcc5.png": "/portifolio/static/media/logo.a11cfcc5.png"
+    "main.css": "/portfolio-photographer/static/css/main.7dd2089b.css",
+    "main.js": "/portfolio-photographer/static/js/main.da989536.js",
+    "static/media/background.jpg": "/portfolio-photographer/static/media/background.fa2d932b8036f3bb6e54.jpg",
+    "static/media/retrato-1.jpg": "/portfolio-photographer/static/media/retrato-1.b983c3b9c4d5008aa33e.jpg",
+    "static/media/paisagem-2.jpg": "/portfolio-photographer/static/media/paisagem-2.7e163f8d7490fa5e4382.jpg",
+    "static/media/quadrado-2.jpg": "/portfolio-photographer/static/media/quadrado-2.5a208980060b81000248.jpg",
+    "static/media/retrato-3.jpg": "/portfolio-photographer/static/media/retrato-3.2b9a99864ddefa5b0048.jpg",
+    "static/media/retrato-2.jpg": "/portfolio-photographer/static/media/retrato-2.5953493057aa77db67d2.jpg",
+    "static/media/photographer.jpg": "/portfolio-photographer/static/media/photographer.7bb799a649cb282e4456.jpg",
+    "static/media/quadrado-1.jpg": "/portfolio-photographer/static/media/quadrado-1.56d10aa27aa8fc178a5f.jpg",
+    "static/media/quadrado-3.jpg": "/portfolio-photographer/static/media/quadrado-3.8286c06543d1aab11964.jpg",
+    "static/media/paisagem-1.jpg": "/portfolio-photographer/static/media/paisagem-1.3ab9eac354315d2be73e.jpg",
+    "static/media/Dagelland-8MB7B.ttf": "/portfolio-photographer/static/media/Dagelland-8MB7B.05a27b02a356b2622da9.ttf",
+    "index.html": "/portfolio-photographer/index.html",
+    "main.7dd2089b.css.map": "/portfolio-photographer/static/css/main.7dd2089b.css.map",
+    "main.da989536.js.map": "/portfolio-photographer/static/js/main.da989536.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b567b87d.js",
-    "static/css/2.7ab896fa.chunk.css",
-    "static/js/2.11d12644.chunk.js",
-    "static/css/main.f004981a.chunk.css",
-    "static/js/main.c87016a1.chunk.js"
+    "static/css/main.7dd2089b.css",
+    "static/js/main.da989536.js"
   ]
 }

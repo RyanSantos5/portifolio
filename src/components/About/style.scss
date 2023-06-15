@@ -1,0 +1,142 @@
+@import './../../scss/all.scss';
+
+.about {
+    background-color: $white;
+    min-height: 600px;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+
+    .default-title {
+        opacity: 0;
+    }
+
+
+    &__left {
+        flex: 1;
+        width: 400px;
+        height: 400px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        &__image {
+            opacity: 0;
+            border: 1px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            object-fit: 1;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            font-size: 26px;
+            font-weight: 400;
+            opacity: 0;
+
+            span {
+                font-weight: 600;
+                font-size: 30px;
+                font-family: $main-font-3;
+                color: $color-2;
+            }
+        }
+    }
+
+    &__right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        &__text {
+            opacity: 0;
+            background-color: $color-5;
+            padding: 50px;
+            width: 100%;
+            max-width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            &--highlight {
+                color: $color-2 !important;
+                text-align: right !important;
+                width: 100%;
+                font-family: $main-font-3;
+            }
+            
+            p {
+                text-align: left;
+                font-size: 18px;
+                font-weight: 400;
+                color: $text-color-pure;
+                opacity: 0;
+            }
+            
+            b {
+                font-family: $main-font-3;
+            }
+            
+            
+        }
+    }
+
+
+    &.animate {
+        .default-title {
+            @include fade("in","right", 300px, 4s);
+        }
+        .about__left__image {
+            @include fade("in","right", 300px, 4s);
+        }
+        .about__left__text p {
+            &:first-child {
+                @include fade("in","right", 300px, 4s, 1s);
+            }
+            
+            &:last-child {
+                @include fade("in","right", 300px, 4s, .7s);
+            }
+        }
+        
+        .about__right__text {
+            @include fade("in","left", 300px, 4s);
+            
+            .about__right__text--p {
+                @include fade("in","left", 300px, 4s, .2s);
+            }
+            
+            .about__right__text--highlight {
+                @include fade("in","left", 300px, 4s, .1s);
+            }
+        }
+    }
+
+}

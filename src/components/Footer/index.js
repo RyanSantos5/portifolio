@@ -1,19 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './style.scss';
-import 'react-owl-carousel2/lib/styles.css';  
-import logo from '../../assets/images/logo.png';
 
 
-const Footer = (props) => {
-
+const Footer = () => {
 
     return  (
-        <div className="footer" id='footer'>
-            <div className="content">
-                <img src={ logo } />
-                <p>Projeto desenvolvido por aluno do CEFET/RJ - Ryan dos Santos</p>
+        <section className="footer" id='footer'>
+            <div className="container">
+                <p>Develop by: <a href='https://github.com/RyanSantosRibeiro'>Ryan Santos</a></p>
             </div>
-        </div>
+        </section>
     )
 }
 

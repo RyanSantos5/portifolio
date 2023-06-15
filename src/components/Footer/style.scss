@@ -1,33 +1,27 @@
-@import './../../assets/scss/variaveis.scss';
+@import './../../scss/all.scss';
 
 .footer {
-    background-color: $preto;
-    width: 100%;
-    overflow: hidden;
-    padding: 20px 0;
-    position: relative;
-
+    background-color: $color-7;
+    height: auto;
+    padding: 10px 0;
 
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    .content {
-        display: flex;
+    .container {
         align-items: center;
         justify-content: center;
-        position: relative;
-        overflow: hidden;
-        gap: 20px;
     }
 
     p {
-        color: $branco;
+        color: $color-1;
+        font-size: 12px;
     }
 
-    img {
-        filter: grayscale(1);
-        max-height: 40px;
+    a {
+        font-weight: 600;
+        color: $color-2;
     }
+
 }
