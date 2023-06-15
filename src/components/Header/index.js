@@ -23,14 +23,14 @@ const Header = () => {
         <div className="header" id='header'>
             <div className='container-fluid'>
                 <div className='header__logo'>
-                    <a href='/'>Brand Logo</a>
+                    <a href='/'>RYAN<span>SANTOS</span></a>
                 </div>
 
                 <ul className='header__menu'>
                     <li><a href='/'>Home</a></li>
-                    <li><a href='#wedding'>Sobre</a></li>
-                    <li><a href='#birthday'>Trabalhos</a></li>
-                    <li className='highlight'><a href='#contact'>Skills</a></li>
+                    <li><a href='#about'>About</a></li>
+                    {/* <li><a href='#skills'>Skills</a></li> */}
+                    <li className='highlight'><a href='#job'>My Works</a></li>
                 </ul>
 
                 <a href='#contact' className='header__button primary-button'>

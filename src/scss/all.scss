@@ -72,6 +72,11 @@ body {
     &:hover {
         background-color: $color-1-700;
     }
+
+    @include tablet {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
 }
 
 .secondary-button {
@@ -89,5 +94,10 @@ body {
     &:hover {
         background-color: $color-1-500;
         color: $white;
+    }
+
+    @include tablet {
+        padding: 12px 16px;
+        font-size: 14px;
     }
 }

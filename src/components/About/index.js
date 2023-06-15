@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                     <div className='about__left__text'>
                         <p>Hello, I'm a <span>Ryan Santos</span></p>
-                        <p>That's <span>me</span> !</p>
+                        <p>That's <b>me</b> !</p>
                     </div>
                     {/* <div className='about__left__layer-1'></div>
                     <div className='about__left__layer-2'></div>
@@ -36,9 +36,11 @@ const About = () => {
                 </div>
                 <div className='about__right'>
                     <div className='about__right__text'>
-                        <p className='about__right__text--p'>Irure adipisicing aute elit voluptate incididunt in consequat dolor. Eiusmod ipsum aliqua fugiat voluptate in ullamco aliqua sit.</p>
-                        <p className='about__right__text--p'>Ex mollit consequat excepteur nostrud. Cillum quis voluptate consequat aute duis do nostrud sint Lorem aliqua. Non eu esse laboris ut fugiat occaecat dolore. </p>
-                        <p className='about__right__text--highlight'><b>Lorem Ipsum</b></p>
+                        <p className='about__right__text--p'>
+                        I have been working as a Frontend developer for over 4 years. I focus on business evolution in the digital realm.
+                        I have experience in team and project management, overseeing the development process from inception to GoLive.</p>
+                        <p className='about__right__text--p'> I love cats, and one of my passions is traveling. If you want to get to know me better, just send me a "hello"!</p>
+                        <p className='about__right__text--highlight'><b>from a Dreamer!</b></p>
                     </div>
                 </div>
             </div>

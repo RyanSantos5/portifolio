@@ -7,6 +7,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Job from './components/Job';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Header />
       <Banner />
       <About />
-      <Gallery />
+      <Job />
+      {/* <Gallery /> */}
       <Contact />
       <Footer />
     </div>

@@ -34,9 +34,13 @@
         a {
             font-size: $font-size-xxl;
             text-transform: uppercase;
-            color: $text-color-pure;
+            color: $color-2;
             font-weight: $font-weight-700;
             transition: 400ms all ease-in-out;
+
+            span {
+                color: $color-1;
+            }
         }
     }
 
@@ -69,6 +73,14 @@
         justify-content: space-between;
         gap: 20px;
 
+        @include tablet {
+            gap: 2px;
+        }
+
+        @include mobile {
+            display: none;
+        }
+
         
         a {
             padding: 6px 12px;
@@ -87,6 +99,10 @@
                     transform: scale3d(1,1,1);
                     transform-origin: 0 50%;
                 }
+            }
+
+            @include tablet {
+                font-size: $font-size-sm;
             }
     
             &::after {
@@ -109,6 +125,8 @@
 
 
     &__button {
-        
+        @include mobile {
+            display: none;
+        }
     }
 }

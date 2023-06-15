@@ -8,7 +8,7 @@ import $ from 'jquery';
 const Contact = () => {
 
     const active = (e) => {
-        if($("#contact").offset().top - $(window).scrollTop() < 450 && !$(".contact").hasClass("animate")) {
+        if($("#contact").offset().top - $(window).scrollTop() < 650 && !$(".contact").hasClass("animate")) {
             $(".contact").addClass("animate");
         }
     }
@@ -30,21 +30,21 @@ const Contact = () => {
                 <div className='contact__modal'>
                     <h4>Social</h4>
                     <div className='contact__social'>
-                        <a href='/'>
+                        <a href='https://wa.me/5521995084896?text=Hello%21'>
                             <img src={whatsapp} alt=''/>
-                            <span>+55 90 0000-0000</span>
+                            <span>21 995084896</span>
                         </a>
-                        <a href='/'>
+                        <a href='https://www.instagram.com/ryan.santosrj/'>
                             <img src={instagram} alt=''/>
-                            <span>@lorem.ipsum</span>
+                            <span>@ryan.santosrj</span>
                         </a>
                     </div>
-                    <a href='/' onClick={sendMessage()} className='contact__modal__action'>Call me</a>
+                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Hello!</a>
                 </div>
                 <div className='contact__modal'>
                     <h4>Email</h4>
-                    <p>Send me an email: <br></br><br></br> <b> lorem.ipsum@ipsum.com</b></p>
-                    <a href='/' onClick={sendMessage()} className='contact__modal__action'>Send</a>
+                    <p>Send me an email: <br></br><br></br> <b> contato@euryansantos.com</b></p>
+                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Send</a>
                 </div>
             </div>
         </section>

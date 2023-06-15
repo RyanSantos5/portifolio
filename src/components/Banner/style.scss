@@ -5,13 +5,17 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
 
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+
+    @include mobile {
+        height: 500px;
+    }
     
     &__image {
         max-width: 100%;
@@ -40,12 +44,29 @@
         justify-content: flex-start;
         gap: 16px;
 
+        max-width: 90vw;
+
+        @include tablet {
+            top: 20%;
+        }
+
 
         h2 {
             color: $text-color-pure;
             font-size: 62px;
             line-height: 70px;
             font-weight: $font-weight-700;
+
+            @include tablet {
+                line-height: 48px;
+                font-size: 50px;
+                text-align: left;
+            }
+            
+            @include mobile {
+                line-height: 28px;
+                font-size: 28px;
+            }
         }
 
         p {
@@ -53,6 +74,15 @@
             font-size: 32px;
             line-height: 40px;
             font-weight: $font-weight-500;
+            @include tablet {
+                font-size: 20px;
+                line-height: 26px;
+                text-align: left;
+            }
+            @include mobile {
+                line-height: 16px;
+                font-size: 16px;
+            }
         }
 
         &__buttons {
@@ -131,6 +161,70 @@
 
 
     // Banner
+
+    &__mockup {
+        
+        position: absolute;
+        width: 450px;
+        height: auto;
+        filter:opacity(.9) blur(.75px);
+        
+        &1 {
+            @include fade("in","up", 200px, 3s);
+            left: 60%;
+            top: 20%;
+            rotate: -45deg;
+
+            @include tablet {
+                left: 20%;
+                top: 30%;
+            }
+            
+            @include mobile {
+                top: 40%;
+                width: 300px
+            }
+        }
+        
+        &2 {
+            @include fade("in","right", 200px, 3s);
+            width: 100px;
+            left: 59%;
+            top: 66%;
+            rotate: -45deg;
+
+            @include tablet {
+                left: 18%;
+                top: 72%;
+            }
+
+            @include mobile {
+                width: 60px;
+                top: 80%;
+                left: 20%;
+            }
+        }
+        
+        &3 {
+            @include fade("in","left", 200px, 3s);
+            width: 300px;
+            left: 80%;
+            top: 40%;
+            rotate: -45deg;
+
+            @include tablet {
+                left: 60%;
+                top: 65%;
+            }
+
+            @include mobile {
+                width: 200px;
+                top: 80%;
+                left: 60%;
+            }
+        }
+    }
+
     &__shape1 {
         position: absolute;
         width: 100px;
