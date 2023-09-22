@@ -1,16 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f26183c.css",
-    "main.js": "/static/js/main.06140154.js",
-    "static/media/retrato-1.jpg": "/static/media/retrato-1.b983c3b9c4d5008aa33e.jpg",
-    "static/media/paisagem-2.jpg": "/static/media/paisagem-2.7e163f8d7490fa5e4382.jpg",
-    "static/media/quadrado-2.jpg": "/static/media/quadrado-2.5a208980060b81000248.jpg",
-    "static/media/retrato-3.jpg": "/static/media/retrato-3.2b9a99864ddefa5b0048.jpg",
-    "static/media/retrato-2.jpg": "/static/media/retrato-2.5953493057aa77db67d2.jpg",
-    "static/media/quadrado-1.jpg": "/static/media/quadrado-1.56d10aa27aa8fc178a5f.jpg",
-    "static/media/quadrado-3.jpg": "/static/media/quadrado-3.8286c06543d1aab11964.jpg",
+    "main.css": "/static/css/main.6b7391d6.css",
+    "main.js": "/static/js/main.a1e2165a.js",
     "static/media/shape-2.png": "/static/media/shape-2.db3e590ea84553a3410d.png",
-    "static/media/paisagem-1.jpg": "/static/media/paisagem-1.3ab9eac354315d2be73e.jpg",
     "static/media/riofit.png": "/static/media/riofit.e0e1e778f8a5c521e025.png",
     "static/media/vekyo.png": "/static/media/vekyo.68c027c18bba808cb47f.png",
     "static/media/shape-3.png": "/static/media/shape-3.85acc99bb2eae1849b35.png",
@@ -32,12 +24,13 @@
     "static/media/maluan.jpg": "/static/media/maluan.2718b054d9d4114f043e.jpg",
     "static/media/rgtx.jpg": "/static/media/rgtx.7efb41c99c8934fc13f1.jpg",
     "static/media/shape-5.png": "/static/media/shape-5.9069e754907e293af45b.png",
+    "static/media/engineering.png": "/static/media/engineering.6694062e9263f62f039d.png",
     "index.html": "/index.html",
-    "main.6f26183c.css.map": "/static/css/main.6f26183c.css.map",
-    "main.06140154.js.map": "/static/js/main.06140154.js.map"
+    "main.6b7391d6.css.map": "/static/css/main.6b7391d6.css.map",
+    "main.a1e2165a.js.map": "/static/js/main.a1e2165a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f26183c.css",
-    "static/js/main.06140154.js"
+    "static/css/main.6b7391d6.css",
+    "static/js/main.a1e2165a.js"
   ]
 }
