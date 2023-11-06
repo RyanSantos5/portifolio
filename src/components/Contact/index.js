@@ -8,7 +8,7 @@ import $ from 'jquery';
 const Contact = () => {
 
     const active = (e) => {
-        if($("#contact").offset().top - $(window).scrollTop() < 650 && !$(".contact").hasClass("animate")) {
+        if($("#contact").offset().top - $(window).scrollTop() < 850 && !$(".contact").hasClass("animate")) {
             $(".contact").addClass("animate");
         }
     }
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div className='contact__modal'>
                     <h4>Email</h4>
-                    <p>Ou me envie um email: <br></br><br></br> <b> contato@euryansantos.com</b></p>
+                    <p>Ou envie-me um email: <br></br><br></br> <b> contato@euryansantos.com</b></p>
                     <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Enviar</a>
                 </div>
             </div>
