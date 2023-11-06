@@ -1,0 +1,262 @@
+@import './../../scss/all.scss';
+
+.pilares-detail {
+    background-color: $white;
+    min-height: 600px;
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+
+    .default-title {
+        opacity: 0;
+        span {
+            font-weight: 600;
+            font-family: $main-font-3;
+            color: $color-2;
+        }
+    }
+
+    .container {
+        gap: 40px;
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+
+    &__highlight {
+        background-color: $color-8;
+        width: 100%;
+        padding: 20px 0;
+        margin-bottom: 30px;
+
+        p {
+            color: $white;
+            font-size: 22px;
+            line-height: 28px;
+            width: 100%;
+            text-align: center;
+
+            span {
+                color: $color-1;
+                font-family: $main-font-3;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+
+            b {
+                color: $color-2;
+                font-family: $main-font-3;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: auto;
+        
+
+        &__image {
+            opacity: 0;
+            border: 1px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        img {
+            width: 300px;
+            max-width: 100%;
+            position: absolute;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 400;
+            opacity: 0;
+
+            span {
+                font-weight: 600;
+                font-family: $main-font-3;
+                color: $color-2;
+            }
+            
+            b {
+                font-family: $main-font-3;
+
+            }
+        }
+    }
+
+    &__right {
+        flex: 1;
+        width: 400px;
+        height: 400px;
+        max-width: 40%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+
+        &__title {
+            font-size: 82px;
+            text-align: right;
+        }
+
+        &__text {
+            opacity: 0;
+            background-color: $color-5;
+            padding: 50px;
+            width: 100%;
+            max-width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            &--highlight {
+                color: $color-2 !important;
+                text-align: right !important;
+                width: 100%;
+                font-family: $main-font-3;
+            }
+            
+            p {
+                text-align: left;
+                font-size: 18px;
+                font-weight: 400;
+                color: $text-color-pure;
+                opacity: 0;
+            }
+            
+            b {
+                font-family: $main-font-3;
+            }
+            
+            
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        opacity: 0;
+    }
+
+    &__item {
+        cursor: pointer;
+        max-width: 100%;
+        width: 150px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 800ms all cubic-bezier(0.13, 1.02, 0.32, 0.97);
+        border-radius: 50px 50px 20px 50px;
+        
+        &:hover {
+            transform: translateX(-5%) translateY(-5%);
+
+        }
+        
+
+        color: $white;
+        font-size: 24px;
+        font-weight: 700;
+
+        &-1 {
+            background-color: $color-1;
+            box-shadow:  0px 0px 6px 2px rgba($color-1, .4);   
+            
+            &:hover {
+                box-shadow:  4px 8px 10px 2px rgba($color-1, .4);   
+            }
+            
+        }
+        &-2 {
+            background-color: $color-3;
+            box-shadow:  0px 0px 6px 2px rgba($color-3, .4);   
+            
+            &:hover {
+                box-shadow:  4px 8px 10px 2px rgba($color-3, .4);  
+            }
+        }
+        &-3 {
+            background-color: $color-2;
+            box-shadow:  0px 0px 6px 2px rgba($color-2, .4);   
+            
+            &:hover {
+                box-shadow:  4px 8px 10px 2px rgba($color-2, .4); 
+            }
+        }
+        &-4 {
+            background-color: $color-4;
+            box-shadow:  0px 0px 6px 2px rgba($color-4, .4);   
+            
+            &:hover {
+                box-shadow:  4px 8px 10px 2px rgba($color-4, .4);  
+            }
+        }
+    }
+
+
+    &.animate {
+        .default-title {
+            @include fade("in","right", 300px, 4s);
+        }
+        .pilares-detail__left__image {
+            @include fade("in","right", 300px, 4s);
+        }
+        .pilares-detail__left__text p {
+            @include fade("in","right", 300px, 4s, 1s);
+        }
+        
+        .pilares-detail__list {
+            @include fade("in","zoom", .7, 4s, 1s);
+        }
+        
+        .pilares-detail__right__text {
+            @include fade("in","left", 300px, 4s);
+            
+            .pilares-detail__right__text--p {
+                @include fade("in","left", 300px, 4s, .2s);
+            }
+            
+            .pilares-detail__right__text--highlight {
+                @include fade("in","left", 300px, 4s, .1s);
+            }
+        }
+    }
+
+}

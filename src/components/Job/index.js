@@ -70,7 +70,7 @@ const Job = () => {
     return  (
         <div className="job" id='job'>
             <div className='container'>
-                <h2 className='default-title'>My Works</h2>
+                <h2 className='default-title'>Meus Trabalhos</h2>
             </div>
             <div className="container">
                 <div className='job-content'>

@@ -24,7 +24,7 @@ const Contact = () => {
     return  (
         <section className="contact" id='contact'>
             <div className='container'>
-                <h2 className='default-title'>Contact Me</h2>
+                <h2 className='default-title'>Contato</h2>
             </div>
             <div className="container">
                 <div className='contact__modal'>
@@ -39,12 +39,12 @@ const Contact = () => {
                             <span>@ryan.santosrj</span>
                         </a>
                     </div>
-                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Hello!</a>
+                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Orçamento</a>
                 </div>
                 <div className='contact__modal'>
                     <h4>Email</h4>
-                    <p>Send me an email: <br></br><br></br> <b> contato@euryansantos.com</b></p>
-                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Send</a>
+                    <p>Ou me envie um email: <br></br><br></br> <b> contato@euryansantos.com</b></p>
+                    <a href='/' onClick={sendMessage()} className='contact__modal__action primary-button'>Enviar</a>
                 </div>
             </div>
         </section>

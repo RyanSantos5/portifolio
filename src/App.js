@@ -1,25 +1,35 @@
 import './App.css';
 import './scss/reset.scss';
 import './scss/all.scss';
-import Banner from './components/Banner';
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+import Home from './pages/Home';
+import Me from './pages/Me';
 import Header from './components/Header';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Job from './components/Job';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Banner />
-      <About />
-      <Job />
-      {/* <Gallery /> */}
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route exact path="/" element={<Home />}/>
+      <Route exact path="/me" element={<Me />} />
+      {/* <Route path="users" element={<Users />}>
+        <Route path="me" element={<OwnUserProfile />} />
+        <Route path=":id" element={<UserProfile />} />
+      </Route> */}
+    </Routes>
+    <Footer/>
+  </BrowserRouter>
   );
 }
 

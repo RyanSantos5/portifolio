@@ -1,11 +1,12 @@
 // Color
 $color-1: #01bad4; // Cor principal da marca
 $color-2: #8444ea; // Cor secundária da marca
-$color-3: #dee2e6; // Cor do callToAction Principal (ex.: botão comprar)
-$color-4: #ced4da; // CallToAction Secundário (ex.: botão de newsletter)
-$color-5: #f5f7fb; // Cor livre
-$color-6: #212529; // Cor Neutra (ex.: cinza)
-$color-7: rgb(11, 12, 12); // Cor Neutra (ex.: cinza)
+$color-3: #ceec12; // Cor do callToAction Principal (ex.: botão comprar)
+$color-4: #f0003f; // CallToAction Secundário (ex.: botão de newsletter)
+$color-5: #ced4da; // Cor livre
+$color-6: #dee2e6; // Cor Neutra (ex.: cinza)
+$color-7: #f5f7fb; // Cor Neutra (ex.: cinza)
+$color-8: #212529; // Cor Neutra (ex.: cinza)
 
 $gradient-1: linear-gradient(to left bottom, #88d4e0, #a8dced, #c6e4f5, #e0edf9, #f5f7fb); // Cor Neutra (ex.: cinza)
 
@@ -20,7 +21,6 @@ $neutral-4: #B8B8B8;
 $neutral-3: #F5F5F5;
 $neutral-5: #777777;
 $neutral-6: #E2E2E2;
-
 $white: #ffffff;
 $neutral-color-high-pure: #ffffff;
 $neutral-color-high-light: #F8F9FA;

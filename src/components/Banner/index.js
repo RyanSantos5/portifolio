@@ -96,13 +96,8 @@ const Banner = () => {
         const y = mouse.client.y;
 
         console.log(x)
-        const mockup = $('.banner__mockup-1');
-        const mockup2 = $('.banner__mockup-2');
       
         const parallaxFactor = 0.1;
-        const parallaxFactor2 = 0.1;
-
-        const animationDuration = 500;
       
       
         let animationSpeed = Math.abs(x * parallaxFactor);
@@ -146,11 +141,11 @@ const Banner = () => {
             <img className='banner__mockup banner__mockup3 banner__mockup-1' src={mockup3} alt=''/>
 
             <div className='banner__text'>
-                <h2>Designer & Frontend Dev</h2>
-                <p>I design and code beautifully simple things, and I love what I do.</p>
+                <h2>Designer & <br></br> Ecommerce Manager</h2>
+                <p>Mais que disposto a te ajudar, a entrar no mundo do Ecommerce</p>
                 <div className='banner__text__buttons'>
-                    <a href='#about' className='primary-button'>Contact</a>
-                    <a href='#about' className='secondary-button'>More about me!</a>
+                <a href='#about' className='primary-button'>Primeiro Passo</a>
+                    <a href='#about' className='secondary-button'>Deixe-me ver mais!</a>
                 </div>
             </div>
             <div className='banner__arrow'>

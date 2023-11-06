@@ -28,13 +28,14 @@ const Header = () => {
 
                 <ul className='header__menu'>
                     <li><a href='/'>Home</a></li>
-                    <li><a href='#about'>About</a></li>
+                    <li><a href='#pilares'>Pilares</a></li>
+                    <li><a href='#about'>Sobre</a></li>
                     {/* <li><a href='#skills'>Skills</a></li> */}
-                    <li className='highlight'><a href='#job'>My Works</a></li>
+                    <li className='highlight'><a href='#job'>Meus Trabalhos</a></li>
                 </ul>
 
                 <a href='#contact' className='header__button primary-button'>
-                    Say Hello
+                    Envie uma mensagem!
                 </a>
             </div>
         </div>
